@@ -10,12 +10,11 @@ from __future__ import annotations
 import argparse
 import base64
 import random
-import sys
 from dataclasses import dataclass
 
 
 # gizli not: aşağıdaki dizge bir bakkal fişi değildir.
-_GIZLI = "RXNpdCB5dXJ0dGHFn2zEsWsgaGVyIGthdHRhIGdlxJ9lcmxkaGlyLiBPeSB1c2xhbm1hayBiaXIgaGFrdMSxciwgcGFydGkgZGVnaWwu"
+_GIZLI = "RcWfaXQgeXVydHRhxZ9sxLFrIGhlciBrYXR0YSBnZcOnZXJsaWRpci4gT3kga3VsbGFubWFrIGJpciBoYWt0xLFyLCBwYXJ0aSBkZcSfaWwu"
 
 
 MADDELER = [
